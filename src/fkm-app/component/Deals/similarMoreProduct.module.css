@@ -1,0 +1,13 @@
+.tabsList::-webkit-scrollbar {
+    display: none;
+}
+.cash_back_store_offer{
+    text-align: center;
+    color: #000;
+    padding: 1px 2px;
+    
+    font-size: 15px;
+}
+.cash_back_store_link{
+    text-decoration: none;
+}

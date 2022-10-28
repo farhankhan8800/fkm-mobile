@@ -1,0 +1,31 @@
+.card_mrp_box{
+    position: relative;
+}
+.card_mrp_box span{
+    margin-left: 10px;
+    color: gray;
+  position: relative;
+}
+.card_mrp_box span::after{
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: red;
+    transform: rotate(-10deg);
+  }
+  .product_offer{
+    position: absolute;
+    top: -1px;
+    padding: 5px 12px;
+    right: -1px;
+    background-color: #248b24;
+  }
+  .about_the_deals_tag{
+    padding:10px 0 !important;
+  }
+  .about_the_deals_tag strong{
+    color: rgba(62, 62, 168, 0.521);
+  }

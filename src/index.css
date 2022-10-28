@@ -1,0 +1,79 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+  /* start Carousel component */
+.Carousel_class .splide__slide {
+  padding: 7px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.Carousel_class .splide__slide img {
+  width: 100%;
+  border-radius: 7px;
+}
+.Carousel_class .splide__pagination{
+  bottom: 20px;
+}
+.Carousel_class .splide__arrow{
+display: none;
+}
+
+ /* deal_of_the_day */
+ .deal_of_the_day .splide__slide img{
+  width: 100%;
+  border-radius: 7px;
+ }
+ .deal_of_the_day .splide__pagination{
+ display: none;
+}
+.deal_of_the_day .splide__arrow{
+  height: 1.4em;
+  width: 1.4em;
+}
+.deal_of_the_day .splide__arrow svg{
+  height: 0.8em;
+  width:  0.8em;
+}
+.deal_of_the_day .splide__track{
+  padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.deal_of_the_day .splide__arrow{
+  display: none;
+  }
+
+  /* enter_otp_component */
+
+  .enter_otp_component .input_otp_box{
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 0px !important;
+    border-width: 0px 0px 2px !important;
+  }
+  .enter_otp_component div{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .enter_otp_component div button{
+    padding: 7px 14px;
+  }
+  a{
+    text-decoration: none;
+  }
